@@ -1,0 +1,55 @@
+{
+  // Note: This config is only used to help editors like VS Code understand/resolve
+  // parts, the actual transpilation is done by babel. Any compiler configuration in
+  // here will be ignored.
+  "include": ["./node_modules/@sanity/base/types/**/*.ts", "./**/*.ts", "./**/*.tsx"]
+}
+// import React, { createContext, useContext, useState, useEffect } from 'react';
+
+
+// const Context = React.createContext();
+
+// export const StateContext = ({ children }) => {
+//   const [showCart, setShowCart] = useState(false);
+
+//   const [qty, setQty] = useState(1);
+
+ 
+
+
+ 
+
+//   const incQty = () => {
+//     setQty((prevQty) => prevQty + 1);
+//   }
+
+//   const decQty = () => {
+//     setQty((prevQty) => {
+//       if(prevQty - 1 < 1) return 1;
+     
+//       return prevQty - 1;
+//     });
+//   }
+
+//   return (
+//     <Context.Provider
+//       value={{
+//         showCart,
+//         setShowCart,
+        
+//         qty,
+//         incQty,
+//         decQty,
+        
+//       }}
+//     >
+//       {children}
+//     </Context.Provider>
+//   )
+// }
+
+// export const useStateContext = () => {
+
+//   return useContext(Context);
+// }
+// export {Context}
